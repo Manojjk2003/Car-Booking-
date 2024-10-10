@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Car Service</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Car Service </h1><br>
+        <h1>Add Appointment</h1>
+        <form id="appointment-form">
+            <input type="text" id="customer-name" placeholder="Customer Name" required>
+            <input type="date" id="appointment-date" required>
+            <textarea id="description" placeholder="Description" required></textarea>
+            <button type="submit">Add Appointment</button>
+        </form>
+
+        <h2> View Appointments</h2>
+        <div id="appointment-list"></div>
+
+        <h2>Filter Appointments</h2>
+        <input type="date" id="filter-date">
+        <button id="filter-btn">Filter</button>
+        <p id="filter-count"></p>
+    </div>
+    <footer>
+    <div class="footer">
+            
+                <p>Car Service</p>
+                <address calss="address">
+                    market road, Gadag-582101<br>
+                    Phone no: +91 1234567890<br>
+                    email: carservice@gmail.com
+                </address>
+
+</div>
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>
